@@ -1,7 +1,7 @@
-DevOps Project - Dr. Kastro Kiran
+DevOps Project - Dr. girish Kiran
 Deployment of ZOMATO Project
 --------------------------------------------
-Repo URL: https://github.com/KastroVKiran/DevOps-Project-Zomato-Kastro.git
+Repo URL: https://github.com/girishVKiran/DevOps-Project-Zomato-girish.git
 
 
 1. Launch an Instance (Ubuntu, 24.04, t2.large, 30 GB)
@@ -134,7 +134,7 @@ pipeline {
         }
         stage ("Git Checkout") {
             steps {
-                git 'https://github.com/KastroVKiran/Zomato-Project-Kastro.git'
+                git 'https://github.com/girishVKiran/Zomato-Project-girish.git'
             }
         }
         stage("Sonarqube Analysis"){
@@ -709,10 +709,8 @@ Note: If you see error in Prometheus under "k8s", open port number 9100 for the 
 After everything is done. Delete everything. Make sure to delete the Cloud Formation Stacks.
 
 ========================================================================================================
-Kind Request:
-Once after you have successfully deployed the App, kindly share your experience on LinkedIn by Tagging me and also provide the YouTube link of this project in your post, as it helps others to access the video quickly. 
-========================================================================================================
 												HAPPY LEARNING
+
 
 
 
