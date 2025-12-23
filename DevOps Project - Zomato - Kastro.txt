@@ -1,7 +1,6 @@
-DevOps Project - Dr. girish Kiran
 Deployment of ZOMATO Project
 --------------------------------------------
-Repo URL: https://github.com/girishVKiran/DevOps-Project-Zomato-girish.git
+Repo URL: https://github.com/GirishHakki/DevOps-Project-Zomato-Clone.git
 
 
 1. Launch an Instance (Ubuntu, 24.04, t2.large, 30 GB)
@@ -134,7 +133,7 @@ pipeline {
         }
         stage ("Git Checkout") {
             steps {
-                git 'https://github.com/girishVKiran/Zomato-Project-girish.git'
+                git 'https://github.com/GirishHakki/DevOps-Project-Zomato-Clone.git'
             }
         }
         stage("Sonarqube Analysis"){
@@ -219,7 +218,7 @@ pipeline {
                 </body>
                 </html>
             """,
-            to: 'kastrokiran@gmail.com',
+            to: 'girish@gmail.com',
             mimeType: 'text/html',
             attachmentsPattern: 'trivy.txt'
         }
@@ -710,6 +709,7 @@ After everything is done. Delete everything. Make sure to delete the Cloud Forma
 
 ========================================================================================================
 												HAPPY LEARNING
+
 
 
 
